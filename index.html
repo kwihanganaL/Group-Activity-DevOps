@@ -6,7 +6,7 @@
 
     <title>Food Management System</title>
 
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
 
     <script src="javascript.js" defer></script>
 </head>
@@ -24,6 +24,33 @@
         <section>
             <h2>Available Food Items</h2>
             <div id="food-container" class="food-container"></div>
+        </section>
+
+        <!-- Blog Section -->
+        <section class="blog-section">
+            <h2>Latest Blog</h2>
+            <div class="blog-grid">
+                <article class="blog-card">
+                    <span class="blog-tag">Nutrition</span>
+                    <h3>Healthy Meals for Busy Students</h3>
+                    <p>Discover quick and affordable meal ideas that keep you energized throughout the day.</p>
+                    <a href="#">Read more</a>
+                </article>
+
+                <article class="blog-card">
+                    <span class="blog-tag">Campus Life</span>
+                    <h3>How to Plan Affordable Weekly Groceries</h3>
+                    <p>Learn simple budgeting tips to make your weekly food purchases smarter and easier.</p>
+                    <a href="#">Read more</a>
+                </article>
+
+                <article class="blog-card">
+                    <span class="blog-tag">Cooking</span>
+                    <h3>Easy Recipes from Campus Kitchen Basics</h3>
+                    <p>Turn everyday ingredients into tasty, satisfying meals with minimal effort and cost.</p>
+                    <a href="#">Read more</a>
+                </article>
+            </div>
         </section>
 
         <!-- Shopping Cart -->
@@ -44,6 +71,22 @@
     <footer>
         <p>&copy; 2026 Food Management System</p>
     </footer>
+    <table>
+        <thead>
+            <tr>
+                <th>Item</th>
+                <th>Price</th>
+                <th>Quantity</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Rows will be populated by JavaScript -->
+        </tbody>
+    </table>
+    <form action="">
+        <input type="submit" value="Place Order">
+        
+    </form>
 
 </body>
 </html>
